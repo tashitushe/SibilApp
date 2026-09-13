@@ -1,0 +1,46 @@
+<svg viewBox="0 0 480 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="15%" cy="0%" r="85%">
+      <stop offset="0%" stop-color="#132A3D"/>
+      <stop offset="60%" stop-color="#0A1420"/>
+    </radialGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="40"/></filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="560" rx="22" fill="url(#bg)"/>
+  <circle cx="60" cy="60" r="130" fill="#4AA6CC" opacity="0.35" filter="url(#blur1)"/>
+  <circle cx="420" cy="480" r="120" fill="#00BC7D" opacity="0.28" filter="url(#blur2)"/>
+
+  <!-- header -->
+  <rect x="210" y="40" width="60" height="60" rx="16" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.15"/>
+  <path d="M240 55 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 z" fill="#EEF6FB"/>
+  <text x="240" y="130" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#EEF6FB">SibilApp</text>
+  <text x="240" y="150" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#EEF6FB" opacity="0.7">Turn any link into a native Mac app</text>
+
+  <!-- card -->
+  <rect x="28" y="178" width="424" height="330" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <text x="50" y="208" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1" fill="#EEF6FB" opacity="0.55">LINK</text>
+  <rect x="50" y="216" width="380" height="38" rx="12" fill="#ffffff" opacity="0.08"/>
+  <text x="62" y="240" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#EEF6FB" opacity="0.55">https://example.com</text>
+
+  <text x="50" y="280" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1" fill="#EEF6FB" opacity="0.55">APP NAME (OPTIONAL)</text>
+  <rect x="50" y="288" width="380" height="38" rx="12" fill="#ffffff" opacity="0.08"/>
+  <text x="62" y="312" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#EEF6FB" opacity="0.55">Auto-detected from link</text>
+
+  <text x="50" y="352" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1" fill="#EEF6FB" opacity="0.55">APP ICON</text>
+  <rect x="50" y="360" width="380" height="30" rx="9" fill="#ffffff" opacity="0.08"/>
+  <rect x="52" y="362" width="188" height="26" rx="7" fill="#ffffff" opacity="0.16"/>
+  <text x="146" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#EEF6FB">Auto (favicon)</text>
+  <text x="335" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#EEF6FB" opacity="0.6">Custom logo</text>
+
+  <rect x="50" y="440" width="380" height="42" rx="14" fill="#4AA6CC"/>
+  <text x="240" y="466" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#08202E">Generate App</text>
+
+  <text x="240" y="538" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#EEF6FB" opacity="0.28">Designed &amp; developed by Farnoud Najari</text>
+</svg>
