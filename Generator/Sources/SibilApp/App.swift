@@ -10,5 +10,9 @@ struct SibilAppMain: App {
         .windowStyle(.hiddenTitleBar)
         .windowResizability(.contentSize)
         .defaultSize(width: 480, height: 560)
+
+        Settings {
+            AboutView()
+        }
     }
 }
